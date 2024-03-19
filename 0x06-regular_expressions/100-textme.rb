@@ -2,9 +2,9 @@
 
 log_entry = ARGV[0]
 
-sender_regex = /\[from: (.*?)\]/
-recipient_regex = /\[to: (.*?)\]/
-flags_regex = /\[flags: (.*?)\]/
+sender_regex = /\[from:(.*?)\]/
+recipient_regex = /\[to:(.*?)\]/
+flags_regex = /\[flags:(.*?)\]/
 
 sender = log_entry.match(sender_regex)[1]
 recipient = log_entry.match(recipient_regex)[1]
