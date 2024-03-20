@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# "listening ports"
+
+sudo netstat -tulpn | grep LISTEN
